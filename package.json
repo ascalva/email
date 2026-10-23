@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Proton Mail DNS for ascalva.com (Terraform); releases by semantic-release",
   "engines": {
-    "node": ">=20"
+    "node": ">=22.14"
   },
   "packageManager": "pnpm@9.15.0",
   "scripts": {

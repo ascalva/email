@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 
-NODE_VERSION   := 20
+NODE_VERSION   := 24
 
 # ---- Config ----
 TF      := terraform

@@ -1,0 +1,11 @@
+**/*.tfstate*
+**/*tfplan*
+**/.terraform/
+**/lambda/
+local/
+archive/
+.env/
+build/
+*.egg-info/
+.DS_Store
+node_modules/

@@ -1,0 +1,25 @@
+{
+  "name": "email",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Proton Mail DNS for ascalva.com (Terraform); releases by semantic-release",
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "setup": "pnpm install --frozen-lockfile",
+    "release": "semantic-release",
+    "test": "echo \"no js tests yet\""
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^12.0.0",
+    "@semantic-release/release-notes-generator": "^14.1.0",
+    "conventional-changelog-conventionalcommits": "^9.1.0",
+    "semantic-release": "^25.0.2"
+  }
+}
